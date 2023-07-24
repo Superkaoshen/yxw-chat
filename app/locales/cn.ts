@@ -4,11 +4,11 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      "欢迎使用云学委AI智能聊天助手！看起来您还没有填写访问密码，或者填写的访问密码过期，您可以关注微信公众号《云学委》领取最新访问码，然后[点击这里](/#/auth)页输入正确的访问密码，即可开始使用！",
   },
   Auth: {
     Title: "需要密码",
-    Tips: "管理员开启了密码验证，请在下方填入访问码",
+    Tips: "关注公众号《云学委》，获取免费访问码",
     Input: "在此处填写访问码",
     Confirm: "确认",
     Later: "稍后再说",
@@ -257,7 +257,12 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: `前往公众号:**[云学委](http://weixin.qq.com/r/oBGbgwTECFl3rUDg90Sy)** 回复 **密码** 免费获取密码，然后点击左下角[设置](/#/settings)按钮输入密码后解锁**免费使用**。
+    
+  卡顿或无响应？可能是用户量太大，[😑如遇到问题请联系客服微信Claytace或联系客服邮箱787423407@qq.com]
+  
+  扫码关注公众号回复密码，密码定期更新。
+  ![图片](/IMG001.jpg)`,
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
